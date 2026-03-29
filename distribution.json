@@ -14,13 +14,13 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.20.1-47.4.18",
-          "name": "Forge 1.20.1",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.18",
+          "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
             "size": 0,
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-universal.jar"
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.1-47.4.18/lowcodelanguage-1.20.1-47.4.18.jar"
           },
           "subModules": [
             {
