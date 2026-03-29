@@ -12,26 +12,15 @@
       "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": true,
-      "modules": [
+"modules": [
   {
     "id": "net.minecraftforge:forge:1.20.1-47.4.18",
-    "name": "Minecraft Forge",
-    "type": "ForgeHosted",
-    "classpath": true,
+    "name": "Forge",
+    "type": "Forge",
     "artifact": {
       "size": 0,
+      "MD5": "",
       "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-installer.jar"
-    },
-    "subModules": [
-      {
-        "id": "1.20.1-47.4.18",
-        "name": "Forge Version",
-        "type": "VersionManifest",
-        "artifact": {
-          "size": 0,
-          "url": "https://meta.prismlauncher.org/v1/net.minecraftforge/47.4.18.json"
-        }
-      }
-    ]
+    }
   }
 ]
