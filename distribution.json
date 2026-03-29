@@ -9,7 +9,7 @@
       "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.20/Demo-1.20.png",
       "version": "1.0.0",
       "address": "vocalist-submission.gl.joinmc.link",
-      "minecraftVersion": "1.20",
+      "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": true,
       "modules": [
