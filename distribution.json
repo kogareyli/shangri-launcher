@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "rss": "",
+  "servers": [
+    {
+      "id": "shangri",
+      "name": "Shangri MC",
+      "description": "Serveur Shangri MC",
+      "icon": "",
+      "version": "1.20.1",
+      "address": "vocalist-submission.gl.joinmc.link",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraft",
+          "name": "Minecraft",
+          "type": "Version",
+          "required": true,
+          "artifact": {
+            "id": "1.20.1"
+          }
+        },
+        {
+          "id": "net.minecraftforge",
+          "name": "Forge",
+          "type": "ForgeHosted",
+          "required": true,
+          "artifact": {
+            "version": "1.20.1-47.4.18"
+          }
+        }
+      ]
+    }
+  ]
+}
