@@ -14,40 +14,21 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.18",
-          "name": "Minecraft Forge",
+          "id": "net.minecraftforge:forge:1.20.1-47.4.18",
+          "name": "Forge 1.20.1",
           "type": "ForgeHosted",
-          "classpath": true,
           "artifact": {
-            "size": 7400,
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.1-47.4.18/lowcodelanguage-1.20.1-47.4.18.jar"
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-installer.jar",
+            "size": 0
           },
           "subModules": [
             {
               "id": "1.20.1-47.4.18",
-              "name": "Forge Version",
+              "name": "Forge Manifest",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16000,
-                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18.json"
-              }
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.18:client",
-              "name": "Forge Client",
-              "type": "Library",
-              "artifact": {
-                "size": 5000000,
-                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-client.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.18:universal",
-              "name": "Forge Universal",
-              "type": "Library",
-              "artifact": {
-                "size": 3000000,
-                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-universal.jar"
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18.json",
+                "size": 0
               }
             }
           ]
