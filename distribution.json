@@ -1,22 +1,39 @@
 {
-  "version": "1.0",
+  "version": "1.0.0",
   "rss": "",
   "servers": [
     {
-      "id": "server",
-      "name": "Mon Serveur",
-      "description": "Test",
+      "id": "Shangri",
+      "name": "Shangri",
+      "description": "Mon serveur",
       "icon": "",
-      "version": "1.20.1",
+      "version": "1.0.0",
       "address": "",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraft:client:1.20.1",
-          "name": "Minecraft",
-          "type": "Minecraft"
+          "id": "net.minecraftforge:forge:1.20.1-47.4.18",
+          "name": "Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-installer.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.18",
+              "name": "Forge Manifest",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 0,
+                "MD5": "",
+                "url": "https://meta.prismlauncher.org/v1/net.minecraftforge/forge/1.20.1-47.4.18.json"
+              }
+            }
+          ]
         }
       ]
     }
