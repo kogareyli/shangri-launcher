@@ -1,38 +1,42 @@
-"servers": [
-  {
-    "id": "shangri",
-    "name": "Shangri MC",
-    "description": "Serveur Shangri MC",
-    "icon": "",
-    "version": "1.0.0",
-    "address": "vocalist-submission.gl.joinmc.link",
-    "minecraftVersion": "1.20",
-    "mainServer": true,
-    "autoconnect": true,
-    "modules": [
-      {
-        "id": "net.minecraftforge:lowcodelanguage:1.20-46.0.2",
-        "name": "Minecraft Forge",
-        "type": "ForgeHosted",
-        "classpath": true,
-        "artifact": {
-          "size": 7400,
-          "MD5": "4a69374eb645771ddb0387a9076b450f",
-          "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/lowcodelanguage/1.20-46.0.2/lowcodelanguage-1.20-46.0.2.jar"
-        },
-        "subModules": [
-          {
-            "id": "1.20-46.0.2",
-            "name": "Forge Version",
-            "type": "VersionManifest",
-            "artifact": {
-              "size": 15970,
-              "MD5": "1125883344968dbbe14e74cf3ad2b5e8",
-              "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.20-forge-46.0.2/1.20-forge-46.0.2.json"
+{
+  "version": "1.0.0",
+  "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
+  "servers": [
+    {
+      "id": "shangri-1.20",
+      "name": "Shangri MC",
+      "description": "Serveur Shangri MC",
+      "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.20/Demo-1.20.png",
+      "version": "1.0.0",
+      "address": "vocalist-submission.gl.joinmc.link",
+      "minecraftVersion": "1.20",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20-46.0.2",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7400,
+            "MD5": "4a69374eb645771ddb0387a9076b450f",
+            "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/lowcodelanguage/1.20-46.0.2/lowcodelanguage-1.20-46.0.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20-46.0.2",
+              "name": "Forge Version",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15970,
+                "MD5": "1125883344968dbbe14e74cf3ad2b5e8",
+                "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.20-forge-46.0.2/1.20-forge-46.0.2.json"
+              }
             }
-          }
-        ]
-      }
-    ]
-  }
-]
+          ]
+        }
+      ]
+    }
+  ]
+}
