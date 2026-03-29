@@ -16,11 +16,6 @@
   {
     "id": "net.minecraftforge:forge:1.20.1-47.4.18",
     "name": "Forge",
-    "type": "Forge",
-    "artifact": {
-      "size": 1085316129,
-      "MD5": "",
-      "url": "https://pixeldrain.com/api/file/ddSXgzKQ"
-    }
+    "type": "Forge"
   }
 ]
