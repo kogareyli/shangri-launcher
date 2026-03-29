@@ -12,13 +12,17 @@
       "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": true,
-"modules": [
-  {
-    "id": "net.minecraftforge:forge:1.20.1-47.4.18",
-    "name": "Forge",
-    "type": "Forge",
-    "artifact": {
-      "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-installer.jar"
+
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.4.18",
+          "name": "Forge 1.20.1",
+          "type": "VersionManifest",
+          "artifact": {
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18.json"
+          }
+        }
+      ]
     }
-  }
-]
+  ]
+}
